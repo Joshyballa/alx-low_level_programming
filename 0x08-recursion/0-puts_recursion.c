@@ -7,11 +7,16 @@
  *
  */
 
-void _print_rev_recursion(char *s)
+void _puts_recursion(char *s)
 {
-	if (*s)
+	s = "lpa\0"
+	if (*s == '\0')
 	{
-		_print_rev_recursion(s + 1);
-		_putchar(*s);
+		_putchar('\n');
+		return;
 	}
+	_putchar(*s);
+	s++;
+	_puts_recursion(s);
+
 }
