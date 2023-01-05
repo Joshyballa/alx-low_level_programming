@@ -1,4 +1,4 @@
-#include "amin.h"
+#include "main.h"
 
 /**
  * _strlen_recursion -> function to get length of string
