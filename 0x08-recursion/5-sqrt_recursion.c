@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
  * @n: number
  * @i: iterator
  * Return: a number
- */
+ *
 
 int _sqrt(int n, int i)
 {
@@ -28,3 +28,4 @@ int _sqrt(int n, int i)
 		return (i);
 	return (_sqrt(n, i + 1));
 }
+*/
