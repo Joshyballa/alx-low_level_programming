@@ -5,7 +5,6 @@
  * @n: parameter to be sqrt
  * Return: square root of a number
  */
-
 int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
@@ -16,8 +15,7 @@ int _sqrt_recursion(int n)
  * @n: number
  * @i: iterator
  * Return: a number
- *
-
+ */
 int _sqrt(int n, int i)
 {
 	int square = i * i;
@@ -28,4 +26,3 @@ int _sqrt(int n, int i)
 		return (i);
 	return (_sqrt(n, i + 1));
 }
-*/
