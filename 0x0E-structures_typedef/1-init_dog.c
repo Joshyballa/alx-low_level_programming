@@ -3,7 +3,6 @@
 
 
 /**
- *
  * init_dog - initializes a structure of type dog
  * @d: pointer to structure
  * @name: pointer to the name of the dog
